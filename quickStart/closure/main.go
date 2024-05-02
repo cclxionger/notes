@@ -1,6 +1,9 @@
 package main
+
 //闭包
-import "fmt"
+import (
+	"fmt"
+)
 
 func adder() func(int) int {
 	sum := 0
@@ -18,6 +21,8 @@ func main() {
 			neg(-2*i),
 		)
 	}
-	// fmt.Println(pos(1),pos(2),pos(3))
-	// fmt.Println(neg(1))
+	rePos := adder()
+	res := rePos(1)
+	fmt.Println(res)
+
 }

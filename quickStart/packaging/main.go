@@ -12,4 +12,6 @@ func main() {
 	fmt.Println(p.Name)
 	p.Setage(10)
 	fmt.Println(p.Getage())
+
+	
 }

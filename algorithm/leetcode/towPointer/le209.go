@@ -13,7 +13,7 @@ func MinSubArrayLen(target int, nums []int) int {
 	le := n + 1//当前长度  
 	for i,j := 0,0; j < n; j++ {//j代表终止位置
 		res += nums[j]
-		for res >= target{//当 当前总和大于目标值sum之后。进行滑动
+		for res >= target{//当 当前总和大于等于目标值sum之后（因为nums中可以有0）。进行滑动，
 			le = j - i + 1
 			result = int (math.Min(float64(le),float64(result)))
 			res -= nums[i]

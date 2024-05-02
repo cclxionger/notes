@@ -67,6 +67,13 @@ func main() {
 	panicTest() //恢复程序，正在运行下面，如果没有recover，则不会运行下面的
 	fmt.Println("after panic")
 
+	//斐波那契数列用管道和goroutine写
+	c := make(chan int, 5)
+	go fibonacci(cap(c), c) //斐波那契数列存在管道里面了，然后关闭管道，才能对管道进行forr循环
+	for i := range c {
+		fmt.Println(i)
+	}
+
 }
 func strWork(ch chan string) {
 	time.Sleep(1 * time.Second)
@@ -90,4 +97,13 @@ func panicTest() {
 		}
 	}()
 	panic(errors.New("this is a panic"))
+}
+
+func fibonacci(n int, c chan int) {
+	var x, y = 0, 1
+	for i := 0; i < n; i++ {
+		c <- x
+		x, y = y, x+y
+	}
+	close(c)
 }
