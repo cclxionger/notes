@@ -1,0 +1,9 @@
+author : cl	brother : ck	[27034-05-27 18:34:32]	 main.main main.go:20	[error]msg:err
+
+brother=ck	author=cl	[27056-05-27 18:56:58]	[error] msg:err
+author=cl	brother=ck	[27024-05-27 22:24:52]	 main.main main.go:21	[error] msg:err
+brother=ck	author=cl	[27028-05-27 22:28:04]	 main.main main.go:24	[error] msg:err 5.27
+author=cl	brother=ck	[27029-05-27 22:29:29]	 main.main main.go:26	[error] msg:err 5.27
+author=cl	brother=ck	[27029-05-27 22:29:45]	 main.main main.go:26	[error] msg:err 5.27
+brother=ck	author=cl	[2024-05-27 22:33:22]	 main.main main.go:26	[error] msg:err 5.27
+brother=lc	author=cl	[2024-05-27 22:52:02]	 main.main main.go:26	[error] msg:err 5.27

@@ -1,0 +1,16 @@
+time="2024-05-25 11:30:35" level=error msg="ck error" study=ck
+2024-05-25 11:32:44	[error]	ck error
+study: lc
+time="2024-05-25 11:33:23" level=error msg="ck error" study=lc
+time="2024-05-25 11:34:17" level=error msg="ck error" learn=lc study=ck
+2024-05-25 11:35:00	[error]	ck error
+2024-05-25 11:35:17	[error]	ck error
+study: ck	learn: lc	2024-05-25 11:35:36	[error]	ck error	study: ck	learn: lc	2024-05-25 11:36:22	[error]	ck error	study: ck	learn: lc	2024-05-25 11:36:54	[error]	ck error	study: ck	learn: lc	
+
+2024-05-25 11:37:17	[error]	ck error	study: ck	learn: lc	
+2024-05-25 11:37:25	[error]	ck error	study: ck	learn: lc	
+2024-05-25 11:38:23	[error]	ck error	study: ck	learn: lc	
+2024-05-25 11:39:02	[error]	ck error	2024-05-25 11:39:27	[error]	ck error
+study: ck	learn: lc	2024-05-25 11:39:48	[error]	ck error
+learn: lc	study: ck	2024-05-25 11:44:39	[error]	ck error
+study: ck	learn: lc	2024-05-25 11:48:05	[error]	ck error

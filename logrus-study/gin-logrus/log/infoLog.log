@@ -1,0 +1,44 @@
+brother : ck	author : cl	[27033-05-27 18:33:35]	 main.main main.go:20	[error]msg:err
+
+author : cl	brother : ck	[27033-05-27 18:33:35]	 main.main main.go:20	[error]msg:err
+
+brother : ck	author : cl	[27033-05-27 18:33:59]	 main.main main.go:20	[error]msg:err
+
+author : cl	brother : ck	[27033-05-27 18:33:59]	 main.main main.go:20	[error]msg:err
+
+author : cl	brother : ck	[27034-05-27 18:34:54]	 main.main main.go:20	[error]msg:err
+
+brother : ck	author : cl	[27034-05-27 18:34:54]	 main.main main.go:20	[error]msg:err
+
+brother : ck	author : cl	[27035-05-27 18:35:10]	 main.main main.go:20	[error]msg:err
+
+brother : ck	author : cl	[27035-05-27 18:35:10]	 main.main main.go:20	[error]msg:err
+
+time="2024-05-27T18:42:55+08:00" level=error msg="这是一个错误日志" author=cl brother=ck
+
+time="2024-05-27T18:42:55+08:00" level=info msg="这是一个信息日志" author=cl brother=ck
+
+time="2024-05-27T18:43:06+08:00" level=error msg="这是一个错误日志" author=cl brother=ck
+
+time="2024-05-27T18:43:06+08:00" level=info msg="这是一个信息日志" author=cl brother=ck
+
+time="2024-05-27T18:43:16+08:00" level=error msg="这是一个错误日志" author=cl brother=ck
+
+time="2024-05-27T18:43:16+08:00" level=info msg="这是一个信息日志" author=cl brother=ck
+
+brother=ck	author=cl	[27056-05-27 18:56:58]	[error] msg:err
+author=cl	brother=ck	[27024-05-27 22:24:52]	 main.main main.go:21	[error] msg:err
+author=cl	brother=ck	[27028-05-27 22:28:04]	 main.main main.go:24	[error] msg:err 5.27
+author=cl	brother=ck	[27029-05-27 22:29:29]	 main.main main.go:26	[error] msg:err 5.27
+author=cl	brother=ck	[27029-05-27 22:29:45]	 main.main main.go:26	[error] msg:err 5.27
+brother=ck	author=cl	[2024-05-27 22:33:22]	 main.main main.go:26	[error] msg:err 5.27
+author=cl	brother=lc	[2024-05-27 22:52:02]	 main.main main.go:26	[error] msg:err 5.27
+author=cl	brother=lc	[2024-05-28 20:34:06]	 notes/logrus-study/gin-logrus/log.NewLog log.go:30	[info] msg:666
+author=cl	brother=lc	[2024-05-28 20:34:06]	 main.main.func1 main.go:17	[info] msg:info来了
+brother=lc	author=cl	[2024-05-28 20:34:44]	 main.main.func1 main.go:17	[info] msg:info来了
+brother=lc	author=cl	[2024-05-28 20:35:08]	 main.main.func1 main.go:17	[info] msg:info来了
+author=cl	[2024-05-28 20:37:21]	 main.main.func1 main.go:17	[info] msg:info来了
+author=cl	[2024-05-28 20:38:49]	 main.main.func1 main.go:17	[info] msg:info来了
+author=cl	[2024-05-28 20:40:07]	 main.main.func1 main.go:17	[info] msg:info来了
+author=cl	[2024-05-28 22:23:32]	 main.main.func1 main.go:17	[info] msg:info来了
+author=cl	[2024-05-28 22:29:28]	 main.main.func1 main.go:17	[info] msg:info来了

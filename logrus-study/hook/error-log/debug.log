@@ -1,0 +1,33 @@
+time="2024-05-25 11:30:35" level=debug msg="debug ck is silly" study=ck
+time="2024-05-25 11:30:35" level=debug msg="ck debug" study=ck
+2024-05-25 11:32:44	[debug]	debug ck is silly
+study: lc
+2024-05-25 11:32:44	[debug]	ck debug
+study: lc
+time="2024-05-25 11:33:23" level=debug msg="debug ck is silly balabalabadladmakdnakd" study=lc
+time="2024-05-25 11:33:23" level=debug msg="ck debug" study=lc
+time="2024-05-25 11:34:17" level=debug msg="debug ck is silly balabalabadladmakdnakd" learn=lc study=ck
+time="2024-05-25 11:34:17" level=debug msg="ck debug" learn=lc study=ck
+2024-05-25 11:35:00	[debug]	debug ck is silly balabalabadladmakdnakd
+2024-05-25 11:35:00	[debug]	ck debug
+2024-05-25 11:35:17	[debug]	debug ck is silly balabalabadladmakdnakd
+study: ck	learn: lc	2024-05-25 11:35:17	[debug]	ck debug
+study: ck	learn: lc	2024-05-25 11:35:36	[debug]	debug ck is silly balabalabadladmakdnakd	study: ck	learn: lc	2024-05-25 11:35:36	[debug]	ck debug	study: ck	learn: lc	2024-05-25 11:36:22	[debug]	debug ck is silly balabalabadladmakdnakd	study: ck	learn: lc	2024-05-25 11:36:22	[debug]	ck debug	study: ck	learn: lc	2024-05-25 11:36:54	[debug]	debug ck is silly balabalabadladmakdnakd	study: ck	learn: lc	
+2024-05-25 11:36:54	[debug]	ck debug	study: ck	learn: lc	
+
+2024-05-25 11:37:17	[debug]	debug ck is silly balabalabadladmakdnakd	study: ck	learn: lc	
+2024-05-25 11:37:17	[debug]	ck debug	learn: lc	study: ck	
+2024-05-25 11:37:25	[debug]	debug ck is silly balabalabadladmakdnakd	study: ck	learn: lc	
+2024-05-25 11:37:25	[debug]	ck debug	study: ck	learn: lc	
+2024-05-25 11:38:23	[debug]	debug ck is silly balabalabadladmakdnakd	study: ck	learn: lc	
+2024-05-25 11:38:23	[debug]	ck debug	study: ck	learn: lc	
+2024-05-25 11:39:02	[debug]	debug ck is silly balabalabadladmakdnakd	
+2024-05-25 11:39:02	[debug]	ck debug	2024-05-25 11:39:27	[debug]	debug ck is silly balabalabadladmakdnakd
+2024-05-25 11:39:27	[debug]	ck debug
+study: ck	learn: lc	2024-05-25 11:39:48	[debug]	debug ck is silly balabalabadladmakdnakd
+learn: lc	study: ck	2024-05-25 11:39:48	[debug]	ck debug
+study: ck	learn: lc	2024-05-25 11:44:39	[debug]	debug ck is silly balabalabadladmakdnakd
+study: ck	learn: lc	2024-05-25 11:44:39	[debug]	ck debug
+study: ck	learn: lc	2024-05-25 11:48:05	[debug]	debug ck is silly balabalabadladmakdnakd
+study: ck	learn: lc	2024-05-25 11:48:05	[debug]	debug ck is silly balabalabadladmakdnakd
+study: ck	learn: lc	2024-05-25 11:48:05	[debug]	ck debug

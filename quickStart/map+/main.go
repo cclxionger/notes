@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"os"
 	"sort"
 )
 
@@ -54,7 +55,9 @@ func main() {
 		fmt.Print(k)
 		fmt.Printf("对应的value为%v\n", a[k])
 	}
-	fmt.Println()
+	defer fmt.Println(6)
+	os.Exit(110)
+
 	//map切片  切片类型是map
 	// var mapSlice = make([]map[string]string, 3)
 	// for index, value := range mapSlice {
@@ -67,6 +70,5 @@ func main() {
 	// for index, value := range mapSlice {
 	// 	fmt.Printf("index:%d value:%v\n", index, value)
 	// }
-
 
 }

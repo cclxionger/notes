@@ -1,7 +1,9 @@
 package main
 
 import (
+	"cmp"
 	"fmt"
+	"slices"
 	"sort"
 )
 
@@ -42,4 +44,34 @@ func main() {
 	d = append(d[:2], d[3:]...)
 	fmt.Println(d)
 	fmt.Println()
+
+	//sortFunction
+	fruits := []string{"abd", "abc", "ddddd"}
+	lenCom := func(a, b string) int {
+		return cmp.Compare(len(b), len(a))
+	}
+	slices.Sort(fruits) //好像也能排序
+	fmt.Println(fruits)
+	slices.SortFunc(fruits, lenCom)
+	fmt.Println(fruits)
+	//对结构体字面量排序
+	type Person struct {
+		name string
+		age  int
+	}
+	people := []Person{
+		{"ccl", 15},
+		{"dad", 15},
+		{"alex", 28},
+	}
+	slices.SortFunc(people,
+		func(a, b Person) int {
+			if a.age == b.age {
+				return cmp.Compare(len(a.name), len(b.name))
+			}
+			return cmp.Compare(a.age, b.age)
+		},
+	)
+	fmt.Println(people)
+
 }
