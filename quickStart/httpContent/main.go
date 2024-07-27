@@ -22,10 +22,11 @@ func hello(w http.ResponseWriter, req *http.Request) {
 		internalError := http.StatusInternalServerError
 		http.Error(w, err.Error(), internalError)
 	}
+	fmt.Println(req.URL.Path)
 }
 
 func main() {
 
 	http.HandleFunc("/hello", hello)
-	http.ListenAndServe(":8090", nil)
+	http.ListenAndServe(":8080", nil)
 }
